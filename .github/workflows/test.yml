@@ -1,0 +1,8 @@
+name: NodeMongoose
+"on": push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Waynes step test
+        run: echo "Struggling"
